@@ -15,9 +15,9 @@ public class DeckBehaviour : MonoBehaviour
     }
 
     [ContextMenu("Draw")]
-    public void DrawCard()
+    public void DrawCards(int amount = 1)
     {
-        deck.Draw();
+        deck.Draw(amount);
     }
 
     [ContextMenu("Shuffle")]
