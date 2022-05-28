@@ -10,9 +10,11 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: b4f4c39d1596add4c95b45e36da302a0, type: 3}
-  m_Name: Vedat
+  m_Name: Cem
   m_EditorClassIdentifier: 
-  Name: Vedat
-  Surname: "Y\u0131ld\u0131z"
+  characterName: Cem
+  sex: 0
+  view: {fileID: 483609926, guid: 6e6e231479ec5ff4cb9bc28e5edc8435, type: 3}
+  relation: 50
   traits:
   - {fileID: 11400000, guid: 22394f74c1fc4b14dba43580bcad2133, type: 2}

@@ -6,6 +6,9 @@ using UnityEngine;
 public class Trait : ScriptableObject
 {
 
+
+    //public Sprite icon;
+
     public Trait counterTrait;
 
 }

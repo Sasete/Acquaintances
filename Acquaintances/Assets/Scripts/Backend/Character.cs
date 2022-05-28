@@ -6,6 +6,19 @@ using UnityEngine;
 public class Character : ScriptableObject
 {
 
+    public enum Sex
+    {
+        Male,
+        Female
+    }
+
+    public string characterName;
+
+    public Sex sex;
+
+    
+    public Sprite view;
+
     [Range(0, 100)]
     public int relation = 50;
 
