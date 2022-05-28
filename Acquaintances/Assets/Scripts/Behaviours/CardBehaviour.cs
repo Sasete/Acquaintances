@@ -26,6 +26,18 @@ public class CardBehaviour : MonoBehaviour
 
     }
 
+    [ContextMenu("Use")]
+    public void Use()
+    {
+        GameManager.manager.Use(card);
 
+        Destroy(gameObject);
+    }
+
+
+    private void OnMouseUp() 
+    {
+        Use();
+    }
 
 }

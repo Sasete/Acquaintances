@@ -12,6 +12,8 @@ public class Deck : ScriptableObject
     [SerializeField]
     private List<Card> hand;
 
+    public List<Card> Hand { get { return hand; } }
+
     [SerializeField]
     private List<Card> used;
 
@@ -43,6 +45,12 @@ public class Deck : ScriptableObject
     {
         hand.Add(deck[0]);
         deck.RemoveAt(0);
+    }
+
+    public void Draw(int amount)
+    {
+        for(int i = 0; i < amount; ++i)
+            Draw();
     }
 
     public void Use(Card card)

@@ -13,12 +13,15 @@ MonoBehaviour:
   m_Name: Deck
   m_EditorClassIdentifier: 
   deck:
-  - {fileID: 11400000, guid: 8426596ae4f138a42abdb98e2df00906, type: 2}
-  - {fileID: 11400000, guid: b24cd1a802211aa478e24054d89d2a1b, type: 2}
-  - {fileID: 11400000, guid: e83bf6a0ea428754e85e8cedd71110a2, type: 2}
-  - {fileID: 11400000, guid: 378917d86fcaf9d47b75d6b89503f2de, type: 2}
-  - {fileID: 11400000, guid: bf9a52261441e9144b44f3258ede54a7, type: 2}
-  - {fileID: 11400000, guid: c7d633751384f074dbb110dd3e9a0323, type: 2}
   - {fileID: 11400000, guid: b328e846f028b764a96c21f381c56b45, type: 2}
+  - {fileID: 11400000, guid: b328e846f028b764a96c21f381c56b45, type: 2}
+  - {fileID: 11400000, guid: b24cd1a802211aa478e24054d89d2a1b, type: 2}
+  - {fileID: 11400000, guid: b24cd1a802211aa478e24054d89d2a1b, type: 2}
+  - {fileID: 11400000, guid: b24cd1a802211aa478e24054d89d2a1b, type: 2}
+  - {fileID: 11400000, guid: b328e846f028b764a96c21f381c56b45, type: 2}
+  - {fileID: 11400000, guid: b328e846f028b764a96c21f381c56b45, type: 2}
+  - {fileID: 11400000, guid: b328e846f028b764a96c21f381c56b45, type: 2}
+  - {fileID: 11400000, guid: b24cd1a802211aa478e24054d89d2a1b, type: 2}
+  - {fileID: 11400000, guid: b24cd1a802211aa478e24054d89d2a1b, type: 2}
   hand: []
   used: []

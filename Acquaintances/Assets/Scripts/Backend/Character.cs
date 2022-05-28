@@ -29,7 +29,12 @@ public class Character : ScriptableObject
 
     public float Relation { get { return (float)relation / 100; } }
 
-    public Trait[] traits;
+    public List<Trait> traits;
+
+    public RelationEvent OnRelationFull;
+    public RelationEvent OnRelationEmpty;
+    public RelationEvent OnRelationChange;
+    public delegate void RelationEvent();
 
 
     public void Init()
@@ -37,5 +42,30 @@ public class Character : ScriptableObject
         relation = 50;
     }
 
+    public void AddRelation(int amount)
+    {
+
+        relation += amount;
+        OnRelationChange?.Invoke();
+
+
+        if(relation >= 100)
+        {
+            relation = 100;
+            OnRelationFull?.Invoke();
+        }
+
+        if(relation <= 0)
+        {
+            relation = 0;
+            OnRelationEmpty?.Invoke();
+        }
+    
+    }
+
+    public void Reset()
+    {
+        relation = 50;
+    }
 
 }
