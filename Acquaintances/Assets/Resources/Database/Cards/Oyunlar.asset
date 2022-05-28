@@ -1,0 +1,27 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 60fda51e7f0b8d9499ba020db9ee6b97, type: 3}
+  m_Name: Oyunlar
+  m_EditorClassIdentifier: 
+  image: {fileID: 914976192, guid: 6e6e231479ec5ff4cb9bc28e5edc8435, type: 3}
+  title: Oyunlardan Konus
+  description: 
+  effects:
+  - trait: {fileID: 11400000, guid: 46030da2fb9c3004d8242f577169209c, type: 2}
+    includeCounter: 1
+    effect: 20
+  - trait: {fileID: 11400000, guid: 3fb1a1f369a5f064995e06eebad709f2, type: 2}
+    includeCounter: 0
+    effect: 15
+  - trait: {fileID: 11400000, guid: 9f23e2b9c1335494c9b86583c739538c, type: 2}
+    includeCounter: 0
+    effect: -15
