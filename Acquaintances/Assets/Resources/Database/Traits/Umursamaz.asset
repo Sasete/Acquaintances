@@ -1,0 +1,15 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: badbffaa5dc476245a48908b77148de6, type: 3}
+  m_Name: Umursamaz
+  m_EditorClassIdentifier: 
+  counterTrait: {fileID: 11400000, guid: 9f23e2b9c1335494c9b86583c739538c, type: 2}
