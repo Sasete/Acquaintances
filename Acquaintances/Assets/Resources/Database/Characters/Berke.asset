@@ -15,9 +15,14 @@ MonoBehaviour:
   view: {fileID: -767915187, guid: 6e6e231479ec5ff4cb9bc28e5edc8435, type: 3}
   characterName: Berke
   sex: 0
-  relation: 50
+  relation: 45
   traits:
   - {fileID: 11400000, guid: 3fb1a1f369a5f064995e06eebad709f2, type: 2}
   - {fileID: 11400000, guid: c67e89ffe6f67d849a4023182cf8b45b, type: 2}
   - {fileID: 11400000, guid: 150c82bcceec49240ba7e5e30a12ec51, type: 2}
   - {fileID: 11400000, guid: 14b7bb283684a7842ab5559bb6dc9deb, type: 2}
+  reactions:
+  - card: {fileID: 11400000, guid: b328e846f028b764a96c21f381c56b45, type: 2}
+    targetMe: 0
+  - card: {fileID: 11400000, guid: b24cd1a802211aa478e24054d89d2a1b, type: 2}
+    targetMe: 0

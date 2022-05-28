@@ -13,6 +13,22 @@ public class Character : ScriptableObject
         Female
     }
 
+    [System.Serializable]
+    public class Reaction
+    {
+
+        public Card card;
+
+        [FoldoutGroup("Reaction")]
+        public bool targetMe = false;
+
+        [ShowInInspector, FoldoutGroup("Reaction"), MultiLineProperty(5)]
+        public string reaction { get { while(reactions.Count <= (int)LanguageManager.language) reactions.Add(""); return reactions[(int)LanguageManager.language]; } set { while(reactions.Count <= (int)LanguageManager.language) reactions.Add(""); reactions[(int)LanguageManager.language] = value; } }
+
+        private List<string> reactions = new List<string>();
+
+    }
+
     [HorizontalGroup("HorizontalGroup")]
     [PreviewField(70, ObjectFieldAlignment.Left), HideLabel]
     public Sprite view;
@@ -30,6 +46,8 @@ public class Character : ScriptableObject
     public float Relation { get { return (float)relation / 100; } }
 
     public List<Trait> traits;
+
+    public List<Reaction> reactions;
 
     public RelationEvent OnRelationFull;
     public RelationEvent OnRelationEmpty;
