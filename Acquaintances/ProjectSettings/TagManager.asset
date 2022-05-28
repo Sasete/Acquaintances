@@ -41,3 +41,12 @@ TagManager:
   - name: Default
     uniqueID: 0
     locked: 0
+  - name: Characters
+    uniqueID: 1901157235
+    locked: 0
+  - name: Card
+    uniqueID: 2049887663
+    locked: 0
+  - name: UI
+    uniqueID: 3671436005
+    locked: 0

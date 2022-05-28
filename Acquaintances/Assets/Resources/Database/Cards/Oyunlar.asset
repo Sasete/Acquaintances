@@ -10,10 +10,16 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 60fda51e7f0b8d9499ba020db9ee6b97, type: 3}
-  m_Name: DefaultCard
+  m_Name: Oyunlar
   m_EditorClassIdentifier: 
-  title: MyCard
+  title: Oyunlardan Konus
   effects:
-  - trait: {fileID: 11400000, guid: 22394f74c1fc4b14dba43580bcad2133, type: 2}
+  - trait: {fileID: 11400000, guid: 46030da2fb9c3004d8242f577169209c, type: 2}
     includeCounter: 1
-    effect: 10
+    effect: 20
+  - trait: {fileID: 11400000, guid: 3fb1a1f369a5f064995e06eebad709f2, type: 2}
+    includeCounter: 0
+    effect: 15
+  - trait: {fileID: 11400000, guid: 9f23e2b9c1335494c9b86583c739538c, type: 2}
+    includeCounter: 0
+    effect: -15
