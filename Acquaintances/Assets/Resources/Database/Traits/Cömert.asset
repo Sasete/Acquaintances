@@ -10,6 +10,6 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: badbffaa5dc476245a48908b77148de6, type: 3}
-  m_Name: Friendly
+  m_Name: "C\xF6mert"
   m_EditorClassIdentifier: 
-  counterTrait: {fileID: 11400000, guid: 93ca31735b10e2f448b6fd5bba20936a, type: 2}
+  counterTrait: {fileID: 11400000, guid: e08702221fcf57c4d8651a53c178f636, type: 2}

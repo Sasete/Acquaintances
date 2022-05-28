@@ -12,8 +12,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b4f4c39d1596add4c95b45e36da302a0, type: 3}
   m_Name: Berke
   m_EditorClassIdentifier: 
+  view: {fileID: -767915187, guid: 6e6e231479ec5ff4cb9bc28e5edc8435, type: 3}
   characterName: Berke
   sex: 0
-  view: {fileID: -767915187, guid: 6e6e231479ec5ff4cb9bc28e5edc8435, type: 3}
   relation: 50
-  traits: []
+  traits:
+  - {fileID: 11400000, guid: 3fb1a1f369a5f064995e06eebad709f2, type: 2}
+  - {fileID: 11400000, guid: c67e89ffe6f67d849a4023182cf8b45b, type: 2}
+  - {fileID: 11400000, guid: 150c82bcceec49240ba7e5e30a12ec51, type: 2}
+  - {fileID: 11400000, guid: 14b7bb283684a7842ab5559bb6dc9deb, type: 2}

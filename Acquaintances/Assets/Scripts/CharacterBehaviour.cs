@@ -18,6 +18,9 @@ public class CharacterBehaviour : MonoBehaviour
     [FoldoutGroup("Hierarchy Members")]
     public TextMeshProUGUI nameField;
 
+    [FoldoutGroup("Hierarchy Members")]
+    public Slider relationBar;
+
 
 
     public void Init()
@@ -25,6 +28,7 @@ public class CharacterBehaviour : MonoBehaviour
 
         nameField.text = character.characterName;
         spriteRenderer.sprite = character.view;
+        relationBar.value = character.Relation;
 
     }
 

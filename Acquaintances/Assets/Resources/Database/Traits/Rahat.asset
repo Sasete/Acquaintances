@@ -10,6 +10,6 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: badbffaa5dc476245a48908b77148de6, type: 3}
-  m_Name: Unfriendly
+  m_Name: Rahat
   m_EditorClassIdentifier: 
-  counterTrait: {fileID: 11400000, guid: 22394f74c1fc4b14dba43580bcad2133, type: 2}
+  counterTrait: {fileID: 11400000, guid: c238d8d9a3c8818468b70122a28f8ef9, type: 2}
