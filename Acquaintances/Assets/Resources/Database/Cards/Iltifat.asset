@@ -12,7 +12,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 60fda51e7f0b8d9499ba020db9ee6b97, type: 3}
   m_Name: Iltifat
   m_EditorClassIdentifier: 
+  image: {fileID: -142282089, guid: 6e6e231479ec5ff4cb9bc28e5edc8435, type: 3}
   title: "\u0130ltifat Et"
+  description: 
   effects:
   - trait: {fileID: 11400000, guid: 9f23e2b9c1335494c9b86583c739538c, type: 2}
     includeCounter: 0

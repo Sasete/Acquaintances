@@ -20,9 +20,15 @@ public class Card : ScriptableObject
         public int effect;
 
     }
-    
 
+
+    [PreviewField(80, ObjectFieldAlignment.Left), HideLabel, HorizontalGroup("HorizontalGroup")]
+    public Sprite image;
+
+    [VerticalGroup("HorizontalGroup/VerticalGroup")]
     public string title;
+    [VerticalGroup("HorizontalGroup/VerticalGroup")]
+    public string description;
 
     public List<Effect> effects;
     public Effect FindEffect(Trait trait) => effects.Find( (eff)=> eff.trait == trait );
