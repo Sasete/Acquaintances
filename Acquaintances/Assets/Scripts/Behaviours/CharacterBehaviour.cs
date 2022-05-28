@@ -21,6 +21,9 @@ public class CharacterBehaviour : MonoBehaviour
     [FoldoutGroup("Hierarchy Members")]
     public Slider relationBar;
 
+    [FoldoutGroup("Hierarchy Members")]
+    public Transform talkPosition;
+
 
     public void Init()
     {

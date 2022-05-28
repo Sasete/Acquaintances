@@ -11,6 +11,9 @@ public class DialogueBox : MonoBehaviour
 
     public TextMeshProUGUI textField;
 
+    public GameObject mesh;
+
+    public List<DialogueEvent> reg = new List<DialogueEvent>();
 
     public DialogueEvent OnFinalize;
     public delegate void DialogueEvent();
@@ -26,6 +29,7 @@ public class DialogueBox : MonoBehaviour
         }
 
         dialogueBox = this;
+        Hide();
 
     }
 
@@ -33,6 +37,7 @@ public class DialogueBox : MonoBehaviour
     {
 
         StopAllCoroutines();
+        Hide(false);
 
         transform.position = Camera.main.WorldToScreenPoint(position);
 
@@ -40,6 +45,8 @@ public class DialogueBox : MonoBehaviour
         StartCoroutine(Type(text));
 
     }
+
+    public void Hide(bool hidden = true) => mesh.SetActive(!hidden);
 
 
     public IEnumerator Type(string text)
@@ -54,7 +61,15 @@ public class DialogueBox : MonoBehaviour
             yield return new WaitForSeconds(0.05f);
         }
 
-        OnFinalize?.Invoke();
+        yield return new WaitForSeconds(1f);
+
+        Hide();
+        // OnFinalize?.Invoke();
+
+        reg.RemoveAt(0);
+
+        if(reg.Count > 0)
+            reg[0]?.Invoke();
 
     }
 
