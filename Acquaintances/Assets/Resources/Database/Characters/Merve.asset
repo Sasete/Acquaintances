@@ -15,7 +15,7 @@ MonoBehaviour:
   view: {fileID: 788840833, guid: 6e6e231479ec5ff4cb9bc28e5edc8435, type: 3}
   characterName: Merve
   sex: 1
-  relation: 50
+  relation: 85
   traits:
   - {fileID: 11400000, guid: e08702221fcf57c4d8651a53c178f636, type: 2}
   - {fileID: 11400000, guid: 46030da2fb9c3004d8242f577169209c, type: 2}

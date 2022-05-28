@@ -15,7 +15,7 @@ MonoBehaviour:
   view: {fileID: 914976192, guid: 6e6e231479ec5ff4cb9bc28e5edc8435, type: 3}
   characterName: Sibel
   sex: 1
-  relation: 15
+  relation: 85
   traits:
   - {fileID: 11400000, guid: c67e89ffe6f67d849a4023182cf8b45b, type: 2}
   - {fileID: 11400000, guid: 9f23e2b9c1335494c9b86583c739538c, type: 2}

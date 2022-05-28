@@ -15,7 +15,7 @@ MonoBehaviour:
   view: {fileID: 483609926, guid: 6e6e231479ec5ff4cb9bc28e5edc8435, type: 3}
   characterName: Cem
   sex: 0
-  relation: 50
+  relation: 30
   traits:
   - {fileID: 11400000, guid: c67e89ffe6f67d849a4023182cf8b45b, type: 2}
   - {fileID: 11400000, guid: de3c1f2e662b226439b92f38db4dd126, type: 2}
