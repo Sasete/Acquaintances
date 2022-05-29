@@ -1434,6 +1434,8 @@ MonoBehaviour:
   - {fileID: 11400000, guid: c4b6866fc98b19149875f75bbf13af5d, type: 2}
   - {fileID: 11400000, guid: 71e80127e02f75d4cb0a1a098ce4b93a, type: 2}
   - {fileID: 11400000, guid: 5560f3e58c61e064a942276d3168b206, type: 2}
+  - {fileID: 11400000, guid: a583d96c1415695489f4f3dc3a6e04db, type: 2}
+  - {fileID: 11400000, guid: e17817de68c469e4891e4fe50fad4deb, type: 2}
   characters:
   - {fileID: 1876744742}
   - {fileID: 1691970577}
@@ -1688,7 +1690,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 0, y: 0}
-  m_AnchoredPosition: {x: 83.3, y: 0}
+  m_AnchoredPosition: {x: 220, y: 0}
   m_SizeDelta: {x: 0, y: 0}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1676975392
@@ -1706,7 +1708,7 @@ MonoBehaviour:
   m_IgnoreLayout: 0
   m_MinWidth: -1
   m_MinHeight: -1
-  m_PreferredWidth: 166.6
+  m_PreferredWidth: 440
   m_PreferredHeight: -1
   m_FlexibleWidth: -1
   m_FlexibleHeight: -1
@@ -1772,8 +1774,8 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 24
-  m_fontSizeBase: 24
+  m_fontSize: 36
+  m_fontSizeBase: 36
   m_fontWeight: 400
   m_enableAutoSizing: 0
   m_fontSizeMin: 18
@@ -1808,7 +1810,7 @@ MonoBehaviour:
   m_VertexBufferAutoSizeReduction: 0
   m_useMaxVisibleDescender: 1
   m_pageToDisplay: 1
-  m_margin: {x: 10, y: 5, z: 10, w: 5}
+  m_margin: {x: 20, y: 10, z: 20, w: 10}
   m_isUsingLegacyAnimationComponent: 0
   m_isVolumetricText: 0
   m_hasFontAssetChanged: 0
@@ -1833,6 +1835,14 @@ PrefabInstance:
       propertyPath: m_Sprite
       value: 
       objectReference: {fileID: -142282089, guid: 6e6e231479ec5ff4cb9bc28e5edc8435, type: 3}
+    - target: {fileID: 1332409526058832005, guid: 72ad76088bd052543add6646ce01d4c8, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0.8
+      objectReference: {fileID: 0}
+    - target: {fileID: 1332409526058832005, guid: 72ad76088bd052543add6646ce01d4c8, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -0.35
+      objectReference: {fileID: 0}
     - target: {fileID: 1360744753426821618, guid: 72ad76088bd052543add6646ce01d4c8, type: 3}
       propertyPath: m_AnchoredPosition.y
       value: 5.16

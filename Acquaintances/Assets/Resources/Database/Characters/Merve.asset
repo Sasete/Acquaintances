@@ -15,7 +15,7 @@ MonoBehaviour:
   view: {fileID: 788840833, guid: 6e6e231479ec5ff4cb9bc28e5edc8435, type: 3}
   characterName: Merve
   sex: 1
-  relation: 70
+  relation: 100
   traits:
   - {fileID: 11400000, guid: 46030da2fb9c3004d8242f577169209c, type: 2}
   - {fileID: 11400000, guid: 3fb1a1f369a5f064995e06eebad709f2, type: 2}
@@ -27,22 +27,32 @@ MonoBehaviour:
   - {fileID: 8300000, guid: 7938396aa3260724f9b035f011e6a0f8, type: 3}
   reactions:
   - card: {fileID: 11400000, guid: 1e636d67a4373c44ab926db37082604f, type: 2}
-    reaction: 
+    reaction: "Bir arabam var, Gel git yap\u0131yorum i\u015Fe,  o kadar."
   - card: {fileID: 11400000, guid: b32cbf44afa88ac4393b209917a00c86, type: 2}
-    reaction: 
+    reaction: "Birka\xE7 dil konu\u015Fuyoruz i\u015Fte. G\xF6steri\u015F yapmay\u0131
+      sevmem."
   - card: {fileID: 11400000, guid: b88460fcaac9c9f43844671f7b3740b7, type: 2}
-    reaction: 
+    reaction: "Her \u015Feyimi planlamaya \xE7al\u0131\u015F\u0131yorum. Okul bitsin,
+      hemen \xE7al\u0131\u015Fmak istiyorum, birka\xE7 firma ayarlad\u0131m bile."
   - card: {fileID: 11400000, guid: 09aa567ce7e0d8b4ea8779d9ee5dce7f, type: 2}
-    reaction: 
+    reaction: "Her hayvan\u0131 \xE7ok severim, favorim bile yok. Kim bilir ka\xE7
+      kere hayvanat bah\xE7esine gittim."
   - card: {fileID: 11400000, guid: de392cc1377a2c646b097b5b36e3f719, type: 2}
-    reaction: 
+    reaction: "Ciddi misin?! Bu sa\xE7ma sapan \u015Feyleri kim takip eder? L\xFCtfen
+      benimle bunlar hakk\u0131nda konu\u015Fma!"
   - card: {fileID: 11400000, guid: 81cd55c1276773444b1384bbc0c300c0, type: 2}
-    reaction: 
+    reaction: "Her t\xFCrl\xFC m\xFCzi\u011Fi severim."
   - card: {fileID: 11400000, guid: b24cd1a802211aa478e24054d89d2a1b, type: 2}
-    reaction: 
+    reaction: "Bo\u015F zamanlar\u0131mda oynuyorum. LOL falan at\u0131yorum. Daha
+      da oynamak isterim asl\u0131nda,  \xF6nerir misin? E\u011Fer s\u0131k\u0131nt\u0131
+      olmazsa?"
   - card: {fileID: 11400000, guid: 76929ad889c394b4eb88d04df6c02d99, type: 2}
-    reaction: 
+    reaction: "Birka\xE7 kere denedim, ama benlik de\u011Fildi spor i\u015Fleri?
+      Niye m\u0131? I\u0131\u0131.. \u015Fey ben y\xFCzerken burnumu k\u0131rd\u0131m
+      da... L\xFCtfen sorma."
   - card: {fileID: 11400000, guid: 6cc202581a377b54eaf0833718fef239, type: 2}
-    reaction: 
+    reaction: ...
   - card: {fileID: 11400000, guid: 07b1b395c64a0a1479d5f8b46d277e7b, type: 2}
-    reaction: 
+    reaction: "\xC7ok g\xFCzel yemek yapar\u0131m,  ama seni tan\u0131m\u0131yorum
+      evime \xE7a\u011F\u0131rmam.  Piknik yapabiliriz, belki? Ba\u015Fkalar\u0131
+      da gelirse tabi? Olur mu? Rahats\u0131z etmi\u015F olmam de\u011Fil mi?"
