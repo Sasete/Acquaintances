@@ -13,6 +13,6 @@ MonoBehaviour:
   m_Name: Spor
   m_EditorClassIdentifier: 
   image: {fileID: 0}
-  title: 
+  title: Spor
   description: 
   effects: []

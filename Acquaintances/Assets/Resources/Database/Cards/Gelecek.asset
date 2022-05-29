@@ -13,6 +13,6 @@ MonoBehaviour:
   m_Name: Gelecek
   m_EditorClassIdentifier: 
   image: {fileID: 0}
-  title: 
+  title: Gelecek
   description: 
   effects: []

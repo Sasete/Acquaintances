@@ -13,6 +13,6 @@ MonoBehaviour:
   m_Name: Araba
   m_EditorClassIdentifier: 
   image: {fileID: 0}
-  title: 
+  title: Araba
   description: 
   effects: []

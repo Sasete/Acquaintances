@@ -13,6 +13,6 @@ MonoBehaviour:
   m_Name: Yemek
   m_EditorClassIdentifier: 
   image: {fileID: 0}
-  title: 
+  title: Yemek
   description: 
   effects: []

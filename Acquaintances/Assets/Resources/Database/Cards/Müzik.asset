@@ -13,6 +13,6 @@ MonoBehaviour:
   m_Name: "M\xFCzik"
   m_EditorClassIdentifier: 
   image: {fileID: 0}
-  title: 
+  title: "M\xFCzik"
   description: 
   effects: []

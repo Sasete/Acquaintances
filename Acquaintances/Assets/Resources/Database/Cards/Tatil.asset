@@ -13,6 +13,6 @@ MonoBehaviour:
   m_Name: Tatil
   m_EditorClassIdentifier: 
   image: {fileID: 0}
-  title: 
+  title: Tatil
   description: 
   effects: []

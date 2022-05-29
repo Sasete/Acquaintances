@@ -12,4 +12,4 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: badbffaa5dc476245a48908b77148de6, type: 3}
   m_Name: "\xC7al\u0131\u015Fkan"
   m_EditorClassIdentifier: 
-  counterTrait: {fileID: 0}
+  counterTrait: {fileID: 11400000, guid: 11993a0a47b27844ba84a0c575044332, type: 2}

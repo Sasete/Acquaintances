@@ -13,6 +13,6 @@ MonoBehaviour:
   m_Name: Magazin
   m_EditorClassIdentifier: 
   image: {fileID: 0}
-  title: 
+  title: Magazin
   description: 
   effects: []

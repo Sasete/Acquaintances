@@ -12,9 +12,13 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b4f4c39d1596add4c95b45e36da302a0, type: 3}
   m_Name: Necati
   m_EditorClassIdentifier: 
-  view: {fileID: 0}
-  characterName: 
+  view: {fileID: -142282089, guid: 6e6e231479ec5ff4cb9bc28e5edc8435, type: 3}
+  characterName: Necati
   sex: 0
   relation: 50
-  traits: []
+  traits:
+  - {fileID: 11400000, guid: 3fb1a1f369a5f064995e06eebad709f2, type: 2}
+  - {fileID: 11400000, guid: ccf477d1af1c83841b0722c7e153aee0, type: 2}
+  - {fileID: 11400000, guid: c238d8d9a3c8818468b70122a28f8ef9, type: 2}
+  - {fileID: 11400000, guid: e08702221fcf57c4d8651a53c178f636, type: 2}
   reactions: []
