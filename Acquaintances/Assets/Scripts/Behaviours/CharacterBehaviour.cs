@@ -24,6 +24,9 @@ public class CharacterBehaviour : MonoBehaviour
     [FoldoutGroup("Hierarchy Members")]
     public Transform talkPosition;
 
+    [FoldoutGroup("Hierarchy Members")]
+    public GameObject maleObject, femaleObject;
+
 
     public void Init()
     {
@@ -33,6 +36,9 @@ public class CharacterBehaviour : MonoBehaviour
         nameField.text = character.characterName;
         spriteRenderer.sprite = character.view;
         relationBar.value = character.Relation;
+
+        maleObject.SetActive(character.sex == Character.Sex.Male);
+        femaleObject.SetActive(character.sex == Character.Sex.Female);
 
         character.OnRelationChange += UpdateCharacter;
 

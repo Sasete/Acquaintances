@@ -22,12 +22,12 @@ public class Card : ScriptableObject
     }
 
 
-    [PreviewField(80, ObjectFieldAlignment.Left), HideLabel, HorizontalGroup("HorizontalGroup")]
+    [PreviewField(80, ObjectFieldAlignment.Right), HideLabel, HorizontalGroup("HorizontalGroup")]
     public Sprite image;
 
-    [VerticalGroup("HorizontalGroup/VerticalGroup")]
+    [VerticalGroup("VerticalGroup"), LabelWidth(50)]
     public string title;
-    [VerticalGroup("HorizontalGroup/VerticalGroup")]
+    [VerticalGroup("VerticalGroup"), LabelWidth(50), Multiline(5)]
     public string description;
 
     public List<Effect> effects;
