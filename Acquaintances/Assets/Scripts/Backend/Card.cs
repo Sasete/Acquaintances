@@ -27,8 +27,6 @@ public class Card : ScriptableObject
 
     [VerticalGroup("VerticalGroup"), LabelWidth(50)]
     public string title;
-    [VerticalGroup("VerticalGroup"), LabelWidth(50), Multiline(5)]
-    public string description;
 
     public List<Effect> effects;
     public Effect FindEffect(Trait trait) => effects.Find( (eff)=> eff.trait == trait );

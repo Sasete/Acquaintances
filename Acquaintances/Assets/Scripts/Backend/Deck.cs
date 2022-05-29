@@ -43,6 +43,9 @@ public class Deck : ScriptableObject
     [ContextMenu("Draw")]
     public void Draw()
     {
+        if(deck.Count <= 0)
+            return;
+            
         hand.Add(deck[0]);
         deck.RemoveAt(0);
     }
