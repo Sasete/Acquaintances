@@ -19,13 +19,8 @@ public class Character : ScriptableObject
 
         public Card card;
 
-        [FoldoutGroup("Reaction")]
-        public bool targetMe = false;
-
         [ShowInInspector, FoldoutGroup("Reaction"), MultiLineProperty(5)]
-        public string reaction { get { while(reactions.Count <= (int)LanguageManager.language) reactions.Add(""); return reactions[(int)LanguageManager.language]; } set { while(reactions.Count <= (int)LanguageManager.language) reactions.Add(""); reactions[(int)LanguageManager.language] = value; } }
-
-        private List<string> reactions = new List<string>();
+        public string reaction;
 
     }
 
