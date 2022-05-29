@@ -42,6 +42,8 @@ public class Character : ScriptableObject
 
     public List<Trait> traits;
 
+    public AudioClip[] clips;
+
     public List<Reaction> reactions;
 
     public RelationEvent OnRelationFull;

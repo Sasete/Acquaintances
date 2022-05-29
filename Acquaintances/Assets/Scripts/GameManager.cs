@@ -89,6 +89,9 @@ public class GameManager : MonoBehaviour
 
     public void Use(Card card)
     {
+        
+        if(DialogueBox.Texting)
+            return;
 
         List<CharacterBehaviour> effectedOnes = new List<CharacterBehaviour>();
 
@@ -114,15 +117,33 @@ public class GameManager : MonoBehaviour
         foreach(CharacterBehaviour character in effectedOnes)
         {
 
-            DialogueBox.DialogueEvent talk = ()=> DialogueBox.dialogueBox.Init(character.character.reactions.Find((reaction)=>reaction.card == card).reaction, character.talkPosition.position);
+            DialogueBox.DialogueEvent talk = ()=> 
+            {
+
+                character.Talk();
+                DialogueBox.dialogueBox.OnFinalize += character.StopTalking;
+                
+                DialogueBox.dialogueBox.Init(character.character.reactions.Find((reaction)=>reaction.card == card).reaction, character.talkPosition.position);
+
+            };
 
             DialogueBox.dialogueBox.reg.Add(talk);
 
         }
 
+        effectedOnes[0].Talk();
+        DialogueBox.dialogueBox.OnFinalize += effectedOnes[0].StopTalking;
+
         DialogueBox.dialogueBox.Init(effectedOnes[0].character.reactions.Find((reaction)=>reaction.card == card).reaction, effectedOnes[0].talkPosition.position);
 
+
         deck.deck.Use(card);
+        deck.deck.Draw();
+
+        if(deck.deck.Hand.Count <= 0)
+            GameOver();
+
+        UpdateHand();
 
 
 

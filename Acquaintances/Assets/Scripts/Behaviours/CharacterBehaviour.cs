@@ -8,7 +8,6 @@ using Sirenix.OdinInspector;
 public class CharacterBehaviour : MonoBehaviour
 {
 
-
     public Character character;
 
 
@@ -41,6 +40,8 @@ public class CharacterBehaviour : MonoBehaviour
         femaleObject.SetActive(character.sex == Character.Sex.Female);
 
         character.OnRelationChange += UpdateCharacter;
+        character.OnRelationEmpty += UpdateCharacter;
+        character.OnRelationFull += UpdateCharacter;
 
     }
 
@@ -70,5 +71,15 @@ public class CharacterBehaviour : MonoBehaviour
 
     }
 
+    public void Talk()
+    {
+        GetComponent<AudioSource>().clip = character.clips[Random.Range(0, character.clips.Length)];
+        GetComponent<AudioSource>().Play();
+    }
+
+    public void StopTalking()
+    {
+        GetComponent<AudioSource>().Stop();
+    }
 
 }
