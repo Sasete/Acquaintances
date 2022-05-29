@@ -26,7 +26,7 @@ public class CharacterBehaviour : MonoBehaviour
     [FoldoutGroup("Hierarchy Members")]
     public GameObject maleObject, femaleObject;
 
-
+    [ContextMenu("Init")]
     public void Init()
     {
 
