@@ -16,6 +16,9 @@ public class GameManager : MonoBehaviour
     public Transform handArea;
     public GameObject cardPrefab;
 
+    public GameObject gameOverObject;
+    public GameObject winObject;
+
     public void Start()
     {
 
@@ -39,8 +42,8 @@ public class GameManager : MonoBehaviour
             characterList.Remove(pulledCharacter);
 
             character.Init();
-            character.character.OnRelationEmpty += EndGame;
-            character.character.OnRelationFull += EndGame;
+            character.character.OnRelationEmpty += GameOver;
+            character.character.OnRelationFull += Win;
         }
 
         deck.Shuffle();
@@ -125,9 +128,21 @@ public class GameManager : MonoBehaviour
 
     }
 
-    public void EndGame()
+    public void GameOver()
     {
         Debug.Log("Game Over!");
+        gameOverObject.SetActive(true);
+    }
+
+    public void Win()
+    {
+        Debug.Log("Congratulations!");
+        winObject.SetActive(true);
+    }
+
+    public void Restart()
+    {
+        UnityEngine.SceneManagement.SceneManager.LoadScene(0);
     }
 
 }
