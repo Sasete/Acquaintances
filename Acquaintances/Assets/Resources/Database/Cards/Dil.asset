@@ -10,7 +10,6 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 60fda51e7f0b8d9499ba020db9ee6b97, type: 3}
-<<<<<<<< HEAD:Acquaintances/Assets/Resources/Database/Cards/Dil.asset
   m_Name: Dil
   m_EditorClassIdentifier: 
   image: {fileID: -1561460088, guid: 6e6e231479ec5ff4cb9bc28e5edc8435, type: 3}
@@ -28,11 +27,4 @@ MonoBehaviour:
   - trait: {fileID: 11400000, guid: c238d8d9a3c8818468b70122a28f8ef9, type: 2}
     includeCounter: 1
     effect: 10
-========
-  m_Name: Oyun
-  m_EditorClassIdentifier: 
-  image: {fileID: 914976192, guid: 6e6e231479ec5ff4cb9bc28e5edc8435, type: 3}
-  title: Oyun
-  description: 
-  effects: []
->>>>>>>> 2D-Art:Acquaintances/Assets/Resources/Database/Cards/Oyun.asset
+    

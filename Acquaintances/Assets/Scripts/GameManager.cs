@@ -89,6 +89,9 @@ public class GameManager : MonoBehaviour
 
     public void Use(Card card)
     {
+        
+        if(DialogueBox.Texting)
+            return;
 
         List<CharacterBehaviour> effectedOnes = new List<CharacterBehaviour>();
 
@@ -136,6 +139,10 @@ public class GameManager : MonoBehaviour
 
         deck.deck.Use(card);
         deck.deck.Draw();
+
+        if(deck.deck.Hand.Count <= 0)
+            GameOver();
+
         UpdateHand();
 
 

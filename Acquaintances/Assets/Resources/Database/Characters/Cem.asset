@@ -27,22 +27,26 @@ MonoBehaviour:
   - {fileID: 8300000, guid: 954e19bde855e4042badbb09f7b302ec, type: 3}
   reactions:
   - card: {fileID: 11400000, guid: 1e636d67a4373c44ab926db37082604f, type: 2}
-    reaction: 
+    reaction: "Gel bir g\xFCn t\xFCr att\u0131ray\u0131m sana, benzini de benden
+      bak yine iyisin."
   - card: {fileID: 11400000, guid: b32cbf44afa88ac4393b209917a00c86, type: 2}
-    reaction: 
+    reaction: "Ay ken spik ingili\u015F. Bence bu kadar\u0131 da yeterli yani. "
   - card: {fileID: 11400000, guid: b88460fcaac9c9f43844671f7b3740b7, type: 2}
-    reaction: 
+    reaction: ...
   - card: {fileID: 11400000, guid: 09aa567ce7e0d8b4ea8779d9ee5dce7f, type: 2}
-    reaction: 
+    reaction: "Bir tane tatl\u0131 m\u0131 tatl\u0131 ku\u015Fum var.  \xC7ok zeki
+      hayvanlar ya, ku\u015F beyinli derler ama yan\u0131nda sen ku\u015F beyinli
+      kal\u0131rs\u0131n, yani."
   - card: {fileID: 11400000, guid: de392cc1377a2c646b097b5b36e3f719, type: 2}
-    reaction: 
+    reaction: ...
   - card: {fileID: 11400000, guid: 81cd55c1276773444b1384bbc0c300c0, type: 2}
-    reaction: 
+    reaction: ...
   - card: {fileID: 11400000, guid: b24cd1a802211aa478e24054d89d2a1b, type: 2}
-    reaction: 
+    reaction: ...
   - card: {fileID: 11400000, guid: 76929ad889c394b4eb88d04df6c02d99, type: 2}
-    reaction: 
+    reaction: "Tatillerde masa tenisi oynar\u0131m. K\xFC\xE7\xFCkken futbol oynard\u0131m
+      ama paslanm\u0131\u015F\u0131md\u0131r.  Yine de senden iyiyim, bence. Kap\u0131\u015Fal\u0131m?"
   - card: {fileID: 11400000, guid: 6cc202581a377b54eaf0833718fef239, type: 2}
-    reaction: 
+    reaction: ...
   - card: {fileID: 11400000, guid: 07b1b395c64a0a1479d5f8b46d277e7b, type: 2}
-    reaction: 
+    reaction: ...
