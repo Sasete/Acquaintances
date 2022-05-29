@@ -9,6 +9,8 @@ public class DialogueBox : MonoBehaviour
 
     public static DialogueBox dialogueBox;
 
+    public static bool Texting = false;
+
     public TextMeshProUGUI textField;
 
     public GameObject mesh;
@@ -51,6 +53,7 @@ public class DialogueBox : MonoBehaviour
 
     public IEnumerator Type(string text)
     {
+        Texting = true;
 
         textField.text = "";
 
@@ -64,6 +67,7 @@ public class DialogueBox : MonoBehaviour
         yield return new WaitForSeconds(1f);
 
         Hide();
+        Texting = false;
         OnFinalize?.Invoke();
 
         reg.RemoveAt(0);
