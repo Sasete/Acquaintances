@@ -87,20 +87,41 @@ public class GameManager : MonoBehaviour
     public void Use(Card card)
     {
 
+        List<CharacterBehaviour> effectedOnes = new List<CharacterBehaviour>();
+
         foreach(Card.Effect effect in card.effects)
         {
 
             foreach(CharacterBehaviour character in characters)
-                character.Effect(effect);
+            {
 
+                bool effected = false;
+
+                character.Effect(effect, ref effected);
+                
+                if(effected && !effectedOnes.Contains(character))
+                    effectedOnes.Add(character);
+
+            }
                 
             // List<CharacterBehaviour> effectedCharacters = characters.FindAll((character)=> character.character.traits.Contains(effect.trait) );
 
+        }
 
+        foreach(CharacterBehaviour character in effectedOnes)
+        {
+
+            DialogueBox.DialogueEvent talk = ()=> DialogueBox.dialogueBox.Init(character.character.reactions.Find((reaction)=>reaction.card == card).reaction, character.talkPosition.position);
+
+            DialogueBox.dialogueBox.reg.Add(talk);
 
         }
 
+        DialogueBox.dialogueBox.Init(effectedOnes[0].character.reactions.Find((reaction)=>reaction.card == card).reaction, effectedOnes[0].talkPosition.position);
+
         deck.deck.Use(card);
+
+
 
     }
 
