@@ -21,6 +21,9 @@ public class CharacterBehaviour : MonoBehaviour
     [FoldoutGroup("Hierarchy Members")]
     public Slider relationBar;
 
+    [FoldoutGroup("Hierarchy Members")]
+    public Transform talkPosition;
+
 
     public void Init()
     {
@@ -40,14 +43,24 @@ public class CharacterBehaviour : MonoBehaviour
         relationBar.value = character.Relation;
     }
 
-    public void Effect(Card.Effect effect)
+    public void Effect(Card.Effect effect, ref bool effected)
     {
 
+        effected = false;
+
         if(character.traits.Contains(effect.trait))
+        {
             character.AddRelation(effect.effect);
+            effected = true;
+        }
 
         if(effect.includeCounter && character.traits.Contains(effect.trait.counterTrait))
+        {
             character.AddRelation(-effect.effect);
+            effected = true;
+        }
+
+        
 
     }
 
