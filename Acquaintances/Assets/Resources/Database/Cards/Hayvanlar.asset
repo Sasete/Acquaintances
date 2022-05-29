@@ -12,7 +12,21 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 60fda51e7f0b8d9499ba020db9ee6b97, type: 3}
   m_Name: Hayvanlar
   m_EditorClassIdentifier: 
-  image: {fileID: 0}
+  image: {fileID: -1561460088, guid: 6e6e231479ec5ff4cb9bc28e5edc8435, type: 3}
   title: Hayvanlar
-  description: 
-  effects: []
+  effects:
+  - trait: {fileID: 11400000, guid: ea5b3f22acbf19d44b6006da211556e1, type: 2}
+    includeCounter: 0
+    effect: 10
+  - trait: {fileID: 11400000, guid: 11993a0a47b27844ba84a0c575044332, type: 2}
+    includeCounter: 1
+    effect: -10
+  - trait: {fileID: 11400000, guid: 9f23e2b9c1335494c9b86583c739538c, type: 2}
+    includeCounter: 0
+    effect: -10
+  - trait: {fileID: 11400000, guid: 14b7bb283684a7842ab5559bb6dc9deb, type: 2}
+    includeCounter: 0
+    effect: -10
+  - trait: {fileID: 11400000, guid: 46030da2fb9c3004d8242f577169209c, type: 2}
+    includeCounter: 0
+    effect: 10

@@ -12,8 +12,6 @@ public class CardBehaviour : MonoBehaviour
     [FoldoutGroup("Hierarchy Members")]
     public TextMeshPro title;
     [FoldoutGroup("Hierarchy Members")]
-    public TextMeshPro description;
-    [FoldoutGroup("Hierarchy Members")]
     public SpriteRenderer cardImage;
     
     [ContextMenu("Build")]
@@ -21,7 +19,6 @@ public class CardBehaviour : MonoBehaviour
     {
 
         title.text = card.title;
-        description.text = card.description;
         cardImage.sprite = card.image;
 
     }
@@ -30,8 +27,6 @@ public class CardBehaviour : MonoBehaviour
     public void Use()
     {
         GameManager.manager.Use(card);
-
-        Destroy(gameObject);
     }
 
 

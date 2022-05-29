@@ -21,8 +21,33 @@ MonoBehaviour:
   - {fileID: 11400000, guid: 9f23e2b9c1335494c9b86583c739538c, type: 2}
   - {fileID: 11400000, guid: ea5b3f22acbf19d44b6006da211556e1, type: 2}
   - {fileID: 11400000, guid: 11993a0a47b27844ba84a0c575044332, type: 2}
+  clips:
+  - {fileID: 8300000, guid: 8f36d6fa3b6fd5f40aada8214e38538a, type: 3}
+  - {fileID: 8300000, guid: 4b159f54da0d3f649982bd9bbd46cd1f, type: 3}
+  - {fileID: 8300000, guid: 7938396aa3260724f9b035f011e6a0f8, type: 3}
   reactions:
-  - card: {fileID: 11400000, guid: b328e846f028b764a96c21f381c56b45, type: 2}
-    targetMe: 0
+  - card: {fileID: 11400000, guid: 1e636d67a4373c44ab926db37082604f, type: 2}
+    reaction: "Ben ilgilenmem araba i\u015Fleriyle,  sevmem de."
+  - card: {fileID: 11400000, guid: b32cbf44afa88ac4393b209917a00c86, type: 2}
+    reaction: "Ne yapacaks\u0131n dil bilip? Ger\xE7ekten soruyorum. Yurtd\u0131\u015F\u0131na
+      falan m\u0131 gidebileceksin sanki."
+  - card: {fileID: 11400000, guid: b88460fcaac9c9f43844671f7b3740b7, type: 2}
+    reaction: ...
+  - card: {fileID: 11400000, guid: 09aa567ce7e0d8b4ea8779d9ee5dce7f, type: 2}
+    reaction: "\xD6yk. O ne \xF6yle her yere i\u015Feyip, s\u0131\xE7\u0131yorlar.
+      Yok alerjim var benim. Sak\u0131n yakla\u015Ft\u0131rma bile bana."
+  - card: {fileID: 11400000, guid: de392cc1377a2c646b097b5b36e3f719, type: 2}
+    reaction: "Instagramdan birka\xE7 sayfa takip ediyorum, \xE7ok de\u011Fil yine
+      de, m\xFCptelas\u0131 de\u011Filim. "
+  - card: {fileID: 11400000, guid: 81cd55c1276773444b1384bbc0c300c0, type: 2}
+    reaction: "Benim zaman\u0131m de\u011Ferli, m\xFCzikmi\u015F falan u\u011Fra\u015Fmam.
+      Zaman kayb\u0131. "
   - card: {fileID: 11400000, guid: b24cd1a802211aa478e24054d89d2a1b, type: 2}
-    targetMe: 0
+    reaction: ...
+  - card: {fileID: 11400000, guid: 76929ad889c394b4eb88d04df6c02d99, type: 2}
+    reaction: "Severim can\u0131, bana b\xF6yle soru sor. M\xFCzikle u\u011Fra\u015Faca\u011F\u0131ma,
+      tenis falan oynar\u0131m yani."
+  - card: {fileID: 11400000, guid: 6cc202581a377b54eaf0833718fef239, type: 2}
+    reaction: Kim tatil sevmez ki! Sorman tuhaf.
+  - card: {fileID: 11400000, guid: 07b1b395c64a0a1479d5f8b46d277e7b, type: 2}
+    reaction: ...
