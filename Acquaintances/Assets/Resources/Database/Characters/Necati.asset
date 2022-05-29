@@ -27,22 +27,29 @@ MonoBehaviour:
   - {fileID: 8300000, guid: 954e19bde855e4042badbb09f7b302ec, type: 3}
   reactions:
   - card: {fileID: 11400000, guid: 1e636d67a4373c44ab926db37082604f, type: 2}
-    reaction: 
+    reaction: "Arabam var efendim. Ba\u015Fka sormak iste\u011Finiz soru var m\u0131?
+      Sigortam var , bekar\u0131m,  evimde var. Tapusunu \xFCst\xFCne yapay\u0131m
+      m\u0131?"
   - card: {fileID: 11400000, guid: b32cbf44afa88ac4393b209917a00c86, type: 2}
-    reaction: 
+    reaction: "10 farkl\u0131 dil konu\u015Fabiliyorum. En welke talen ken jij dan?"
   - card: {fileID: 11400000, guid: b88460fcaac9c9f43844671f7b3740b7, type: 2}
-    reaction: 
+    reaction: "Gelece\u011Fim \xE7ok parlak. Dereceyle mezun olduktan sonra babam\u0131n
+      fabrikas\u0131nda ba\u015Fa ge\xE7erim diye kararla\u015Ft\u0131rd\u0131k. 
+      \u0130yi anla\u015F\u0131rsak sana da yer ayarlayabilirim. Pasaportun var m\u0131?"
   - card: {fileID: 11400000, guid: 09aa567ce7e0d8b4ea8779d9ee5dce7f, type: 2}
-    reaction: 
+    reaction: ...
   - card: {fileID: 11400000, guid: de392cc1377a2c646b097b5b36e3f719, type: 2}
-    reaction: 
+    reaction: "Hah, tam da tahmin etti\u011Fim gibi birisisin. Bu sa\xE7ma \u015Feylerle
+      u\u011Fra\u015Fabilen biri. "
   - card: {fileID: 11400000, guid: 81cd55c1276773444b1384bbc0c300c0, type: 2}
-    reaction: 
+    reaction: "Zaman kayb\u0131, ge\xE7."
   - card: {fileID: 11400000, guid: b24cd1a802211aa478e24054d89d2a1b, type: 2}
-    reaction: 
+    reaction: ...
   - card: {fileID: 11400000, guid: 76929ad889c394b4eb88d04df6c02d99, type: 2}
-    reaction: 
+    reaction: "K\xFC\xE7\xFCkl\xFC\u011F\xFCmden beri karate biliyorum. Siz hangi
+      sporla u\u011Fra\u015F\u0131rs\u0131n\u0131z? Birden fazla oldu\u011Funu \xE7ok
+      d\xFC\u015F\xFCnm\xFCyorum. "
   - card: {fileID: 11400000, guid: 6cc202581a377b54eaf0833718fef239, type: 2}
-    reaction: 
+    reaction: "Zaman kayb\u0131, ge\xE7."
   - card: {fileID: 11400000, guid: 07b1b395c64a0a1479d5f8b46d277e7b, type: 2}
-    reaction: 
+    reaction: ...
