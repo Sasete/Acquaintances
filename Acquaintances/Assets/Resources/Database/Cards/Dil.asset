@@ -12,7 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 60fda51e7f0b8d9499ba020db9ee6b97, type: 3}
   m_Name: Dil
   m_EditorClassIdentifier: 
-  image: {fileID: -1561460088, guid: 6e6e231479ec5ff4cb9bc28e5edc8435, type: 3}
+  image: {fileID: 21300000, guid: bfaa67977185c3a43b2c2dff8644393f, type: 3}
   title: Dil
   effects:
   - trait: {fileID: 11400000, guid: ccf477d1af1c83841b0722c7e153aee0, type: 2}
@@ -27,4 +27,3 @@ MonoBehaviour:
   - trait: {fileID: 11400000, guid: c238d8d9a3c8818468b70122a28f8ef9, type: 2}
     includeCounter: 1
     effect: 10
-    

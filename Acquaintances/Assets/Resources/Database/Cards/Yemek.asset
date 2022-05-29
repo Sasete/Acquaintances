@@ -12,7 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 60fda51e7f0b8d9499ba020db9ee6b97, type: 3}
   m_Name: Yemek
   m_EditorClassIdentifier: 
-  image: {fileID: -1561460088, guid: 6e6e231479ec5ff4cb9bc28e5edc8435, type: 3}
+  image: {fileID: 21300000, guid: 72398bfda588cd34cb959e204a98cacd, type: 3}
   title: Yemek
   effects:
   - trait: {fileID: 11400000, guid: c67e89ffe6f67d849a4023182cf8b45b, type: 2}
