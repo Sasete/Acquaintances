@@ -109,7 +109,7 @@ SpriteRenderer:
   m_FlipX: 0
   m_FlipY: 0
   m_DrawMode: 0
-  m_Size: {x: 1, y: 1}
+  m_Size: {x: 5, y: 5}
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
@@ -568,7 +568,6 @@ MonoBehaviour:
   talkPosition: {fileID: 1332409526058832005}
   maleObject: {fileID: 8177802115499688034}
   femaleObject: {fileID: 7087292472604245458}
-  clips: []
 --- !u!61 &7271434689941650285
 BoxCollider2D:
   m_ObjectHideFlags: 0
