@@ -14,5 +14,5 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   image: {fileID: 0}
   title: Araba
-  description: 
+  description: "Arabalar hakk\u0131nda konu\u015F"
   effects: []
