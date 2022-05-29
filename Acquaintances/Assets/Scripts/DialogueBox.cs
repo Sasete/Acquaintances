@@ -64,7 +64,7 @@ public class DialogueBox : MonoBehaviour
         yield return new WaitForSeconds(1f);
 
         Hide();
-        // OnFinalize?.Invoke();
+        OnFinalize?.Invoke();
 
         reg.RemoveAt(0);
 

@@ -12,7 +12,18 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 60fda51e7f0b8d9499ba020db9ee6b97, type: 3}
   m_Name: Tatil
   m_EditorClassIdentifier: 
-  image: {fileID: 0}
+  image: {fileID: -1561460088, guid: 6e6e231479ec5ff4cb9bc28e5edc8435, type: 3}
   title: Tatil
-  description: 
-  effects: []
+  effects:
+  - trait: {fileID: 11400000, guid: ea5b3f22acbf19d44b6006da211556e1, type: 2}
+    includeCounter: 0
+    effect: 10
+  - trait: {fileID: 11400000, guid: 150c82bcceec49240ba7e5e30a12ec51, type: 2}
+    includeCounter: 1
+    effect: 10
+  - trait: {fileID: 11400000, guid: 11993a0a47b27844ba84a0c575044332, type: 2}
+    includeCounter: 0
+    effect: 10
+  - trait: {fileID: 11400000, guid: c67e89ffe6f67d849a4023182cf8b45b, type: 2}
+    includeCounter: 1
+    effect: 10
